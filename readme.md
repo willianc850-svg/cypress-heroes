@@ -1,9 +1,17 @@
-# Cypress Heroes Demo Application
+# Cypress Heroes
+
+Repositório de estudo do curso da Lume Stack. A base é o demo Cypress Heroes, uma aplicação usada para praticar testes end-to-end, de componente e de API com Cypress.
+
+O material deste estudo está no client:
+
+- Casos de teste em `client/cypress/casos-de-teste`
+- Specs E2E com page objects em `client/cypress/e2e` e `client/cypress/pages`
+- Bug reports em `client/cypress/bug-reports`
+
+## Getting Started
 
 This is a demo application that shows how to use Cypress to run end-to-end,
 component, and API tests against an application.
-
-## Getting Started
 
 The app is a mono repo that uses npm workspaces. Once you clone the project,
 install the dependencies at the root folder:
@@ -17,7 +25,6 @@ After that a few more things need to be set up (databases and such), to do so ru
 ```sh
 npm run setup
 ```
-
 
 To launch the app for development, run:
 
