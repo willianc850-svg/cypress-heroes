@@ -1,7 +1,9 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "isolatedModules": false
+    "isolatedModules": false,
+    "esModuleInterop": true,
+    "moduleResolution": "bundler"
   },
-  "include": ["."]
+  "include": [".", "../src/env.d.ts"]
 }
